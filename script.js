@@ -1,7 +1,35 @@
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
+var today = dayjs().format('dddd, MMMM DD');
+
+var now = dayjs().format("H A");
+
+var workHours = [
+  {time: "8AM", event:"" },
+  {time: "9AM", event:"" },
+  {time: "10AM", event:"" },
+  {time: "11AM", event:"" }, 
+  {time: "12PM", event:"" },
+  {time: "1PM", event:"" },
+  {time: "2PM", event:"" },
+  {time: "3PM", event:"" },
+  {time: "4PM", event:"" },
+  {time: "5PM", event:"" },
+  {time: "6PM", event:"" },
+];
+
+//local storage check
+var workEvents = JSON.parse(localStorage.getItem("workHours"));
+if (workEvents){
+  workHours = workEvents;
+}
+
 $(function () {
+
+//console.log(dayjs().format('dddd, MMMM DD'))
+$("#currentDay").text(today);
+
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
   // local storage. HINT: What does `this` reference in the click listener
