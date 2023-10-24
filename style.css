@@ -12,8 +12,6 @@ textarea {
   padding: 10px;
 }
 
-/*add a class for the log*/ 
-
 .description {
   white-space: pre-wrap;
 }
@@ -37,7 +35,7 @@ textarea {
   color: white;
 }
 
-.present {
+.current {
   background-color: #ff6961;
   color: white;
 }
