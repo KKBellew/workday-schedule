@@ -15,3 +15,5 @@ SO THAT I can manage my time effectively
 You wil find a wokring schedule to get you motivated to stay organized and up to date day by day. 
 
 ![Alt text](calendar.png)
+
+https://github.com/KKBellew/workday-schedule.git
