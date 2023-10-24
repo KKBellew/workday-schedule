@@ -14,4 +14,4 @@ SO THAT I can manage my time effectively
 ## What you will get
 You wil find a wokring schedule to get you motivated to stay organized and up to date day by day. 
 
-![Alt text](../KU-VIRT-FSF-PT-09-2023-U-LOLC/05-Third-Party-APIs/02-Challenge/Assets/calendar.png)
+![Alt text](calendar.png)
